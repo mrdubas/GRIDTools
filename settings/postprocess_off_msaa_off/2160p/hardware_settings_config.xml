@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hardware_settings_config version="39">
+	<cpu>
+		<threadStrategy parallelUpdateRender="true" workerMapFile="system/workerMap4Core.xml" forceFeedbackProcessor="3" dvdStorageProcessor="3" dataSetMonitorProcessor="1" renderProcessor="0" updateProcessor="2" fileStreamProcessor="3" />
+	</cpu>
+	<audio_card>
+		<audio mixing="software" reverbs="2" voices="120" creation="auto" />
+	</audio_card>
+	<graphics_card>
+		<resolution width="3840" height="2160" aspect="Normal" fullscreen="true" vsync="0" oldWidth="3840" oldHeight="2160">
+			<refreshRate rate="60" />
+		</resolution>
+		<gamma level="1,0" />
+		<multisampling option="0">
+			<back_buffer level="0" />
+			<colour_target level="0" />
+			<minimap level="0" />
+			<dynamic_envmap level="0" />
+			<static_envmap level="0" />
+			<rear_view_mirror level="0" />
+		</multisampling>
+		<textures lod="0" />
+	</graphics_card>
+	<graphics_detail level="high" />
+	<wind particles="true" groundcover="true" />
+	<shadows enabled="true" size="4096" maskQuality="2" />
+	<headlights headlightQuality="2" />
+	<particles enabled="true" collisions="true" max="6000" />
+	<crowd enabled="true" />
+	<cloth enabled="true" />
+	<postprocess enabled="false" blur="false" />
+	<groundcover enabled="true" layers="4" />
+	<trees visibility="2000" low="1900" high="1800" lodQuality="2" />
+	<vehicles characterQuality="4" lodQuality="3" />
+	<reflections faces="6" size="2048" forceBilinear="false" />
+	<mirrors enabled="true" forceBilinear="true" width="2048" height="512" />
+	<skidmarks enabled="true" />
+	<dynamic_ambient_occ enabled="true" />
+	<track_reflections enabled="true" />
+	<physics environmentalDamage="true" vehicleDamage="true" />
+	<input device_type="auto" />
+	<motion enabled="false" ip="127.0.0.1" port="20777" delay="1" extradata="0" />
+</hardware_settings_config>

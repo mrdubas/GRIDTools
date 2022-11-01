@@ -1,0 +1,199 @@
+<!-- The RD4 default ActionMap for keyboard -->
+<ActionMap deviceType="Keyboard" schemeType="preset0" priority="0" >
+	
+	<!-- In Game Actions -->
+	<Action actionName = "Accelerate" >
+		<Axis axisName = "win_key_up" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" deadZone = "0.0" saturation = "1.0" />
+	</Action>
+	<Action actionName = "Brake" >
+		<Axis axisName = "win_key_down" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" deadZone = "0.0" saturation = "1.0" />
+	</Action>
+	<Action actionName = "Hand Brake" >
+		<Axis axisName = "win_key_space" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+	<Action actionName = "Steer Left" >
+		<Axis axisName = "win_key_left" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" deadZone = "0.2" saturation = "1.0" />
+	</Action>
+	<Action actionName = "Steer Right" >
+		<Axis axisName = "win_key_right" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" deadZone = "0.2" saturation = "1.0" />
+	</Action>
+	<Action actionName = "Change View" >
+		<Axis axisName = "win_key_c" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+	<Action actionName = "Gear Up" >
+		<Axis axisName = "win_key_a" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+	<Action actionName = "Gear Down" >
+		<Axis axisName = "win_key_z" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+  <Action actionName = "Gear 1" >
+    <Axis axisName = "unmapped" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+  </Action>
+  <Action actionName = "Gear 2" >
+    <Axis axisName = "unmapped" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+  </Action>
+  <Action actionName = "Gear 3" >
+    <Axis axisName = "unmapped" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+  </Action>
+  <Action actionName = "Gear 4" >
+    <Axis axisName = "unmapped" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+  </Action>
+  <Action actionName = "Gear 5" >
+    <Axis axisName = "unmapped" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+  </Action>
+  <Action actionName = "Gear 6" >
+    <Axis axisName = "unmapped" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+  </Action>
+  <Action actionName = "Gear Reverse" >
+    <Axis axisName = "unmapped" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+  </Action>
+	<Action actionName = "Look Left" >
+		<Axis axisName = "win_key_delete" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+	<Action actionName = "Look Right" >
+		<Axis axisName = "win_key_pageDown" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+	<Action actionName = "Look Up" >
+		<Axis axisName = "unmapped" deviceName = "Keyboard" baseCalibration = "biDirectionalLower" />
+	</Action>
+	<Action actionName = "Look Down" >
+		<Axis axisName = "unmapped" deviceName = "Keyboard" baseCalibration = "biDirectionalUpper" />
+	</Action>
+	<Action actionName = "Look Back" >
+		<Axis axisName = "win_key_end" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+	<Action actionName = "Pause" >
+		<Axis axisName = "win_key_escape" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+  <Action actionName = "Boost" >
+    <Axis axisName = "win_key_b" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+  </Action>
+  <Action actionName = "Instant Replay" >
+		<Axis axisName = "win_key_return" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+  </Action>
+
+	
+	<!-- Replay Actions -->
+	<Action actionName = "Replay Rewind" >
+		<Axis axisName = "win_key_f2" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+	<Action actionName = "Replay Fast Forward" >
+		<Axis axisName = "win_key_f3" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+	<Action actionName = "Replay Pause" >
+		<Axis axisName = "win_key_f1" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+	<Action actionName = "Replay Next Camera" >
+		<Axis axisName = "win_key_f8" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+	<Action actionName = "Replay Prev Camera" >
+		<Axis axisName = "win_key_f7" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+	<Action actionName = "Replay Jump In" >
+		<Axis axisName = "win_key_f12" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+	<Action actionName = "Replay Next Lap" >
+		<Axis axisName = "win_key_f5" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+	<Action actionName = "Replay Previous Lap" >
+		<Axis axisName = "win_key_f4" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+	<Action actionName = "Replay Save" >
+		<Axis axisName = "win_key_s" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+	<Action actionName = "Replay Exit" >
+		<Axis axisName = "win_key_escape" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+	
+	<!-- Menu Actions -->
+	<Action actionName = "Menu Left" > 
+		<Axis axisName = "win_key_left" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+		<Axis axisName = "win_key_numpad4" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action> 
+	<Action actionName = "Menu Right" >
+		<Axis axisName = "win_key_right" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+		<Axis axisName = "win_key_numpad6" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action> 
+	<Action actionName = "Menu Up" >   
+		<Axis axisName = "win_key_up" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+		<Axis axisName = "win_key_numpad8" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action> 
+	<Action actionName = "Menu Down" > 
+		<Axis axisName = "win_key_down" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+		<Axis axisName = "win_key_numpad2" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action> 
+	<Action actionName = "Menu Select" >
+		<Axis axisName = "win_key_return" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+		<Axis axisName = "win_key_numpadEnter" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+	<Action actionName = "Menu Back" >
+		<Axis axisName = "win_key_escape" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+	<Action actionName = "Menu Button3" >
+		<Axis axisName = "win_key_lControl" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+		<Axis axisName = "win_key_rControl" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+	<Action actionName = "Menu Button4" >
+		<Axis axisName = "win_key_lShift" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+		<Axis axisName = "win_key_rShift" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+	<Action actionName = "Menu Start Button" >
+		<Axis axisName = "win_key_return" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+		<Axis axisName = "win_key_numpadEnter" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>    
+	<Action actionName = "Menu Back Button" >
+		<Axis axisName = "unmapped" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+	<Action actionName = "Fe View Tweak Left" >
+		<Axis axisName = "unmapped" deviceName = "Keyboard" baseCalibration = "biDirectionalLower" />
+	</Action>
+	<Action actionName = "Fe View Tweak Right" >
+		<Axis axisName = "unmapped" deviceName = "Keyboard" baseCalibration = "biDirectionalUpper" />
+	</Action>
+	<Action actionName = "Fe View Tweak Up" >
+		<Axis axisName = "unmapped" deviceName = "Keyboard" baseCalibration = "biDirectionalLower" />
+	</Action>
+	<Action actionName = "Fe View Tweak Down" >
+		<Axis axisName = "unmapped" deviceName = "Keyboard" baseCalibration = "biDirectionalUpper" />
+	</Action>
+	<Action actionName = "Temp Left Shoulder" >
+		<Axis axisName = "win_key_f1" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+	 <Action actionName = "Temp Right Shoulder" >
+		<Axis axisName = "win_key_f2" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action>
+	
+	<!-- Text Entry Actions -->
+	<Action actionName = "Text Entry Left" > 
+		<Axis axisName = "win_key_left" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action> 
+	<Action actionName = "Text Entry Right" >
+		<Axis axisName = "win_key_right" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action> 
+	<Action actionName = "Text Entry Return" > 
+		<Axis axisName = "win_key_left" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action> 
+	<Action actionName = "Text Entry Shift" >
+		<Axis axisName = "win_key_lShift" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+		<Axis axisName = "win_key_rShift" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action> 
+	<Action actionName = "Text Entry Control" > 
+		<Axis axisName = "win_key_lControl" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+		<Axis axisName = "win_key_rControl" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action> 
+	<Action actionName = "Text Entry Home" >
+		<Axis axisName = "win_key_home" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action> 
+	<Action actionName = "Text Entry End" > 
+		<Axis axisName = "win_key_end" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action> 
+	<Action actionName = "Text Entry Cut" >
+		<Axis axisName = "win_key_x" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action> 
+	<Action actionName = "Text Entry Copy" > 
+		<Axis axisName = "win_key_c" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action> 
+	<Action actionName = "Text Entry Paste" >
+		<Axis axisName = "win_key_v" deviceName = "Keyboard" baseCalibration = "uniDirectionalPositive" />
+	</Action> 	
+</ActionMap>
